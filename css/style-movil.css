@@ -1,0 +1,93 @@
+@media screen and (max-width: 415px) {
+    .inicio {
+        padding: 20px 0;
+        grid-template: 110px 40px / auto ;
+    }
+
+    .inicio figure {
+        margin: auto;
+    }
+
+    .inicio div {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .navegador {
+        margin-bottom: 0;
+        padding: 10px 5px 5px 5px;
+        margin: 0 15px 25px 15px;
+    }
+
+    .menu {
+        grid-template: repeat(4, 1fr) / auto;
+    }
+
+    .menu li a {
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px black dotted;
+        text-align: left;
+    }
+
+    .menu li a span {
+        padding-left: 25px;
+    }
+
+    .cabecera {
+        padding: 0 25px;
+    }
+
+    .cabecera hgroup {
+        width: auto;
+        text-align: left;
+    }
+
+    .cabecera hgroup h1 {
+        line-height: 40px;
+        padding: 0 30px;
+    }
+
+    .cabecera hgroup h2 {
+        text-align: center;
+    }
+
+    .velas{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    .velas div{
+        width: auto;
+    }
+
+    .velas figure{
+        width: auto;
+    }
+
+    .aroma {
+        padding-bottom: 0;
+        padding: 20px 15px;
+    }
+
+    .img-text {
+        grid-template: 285px 1fr / auto;
+        grid-column-gap: 0px;
+    }
+
+    .text {
+        gap: 10px;
+    }
+
+    .cards{
+        grid-template: repeat(3, 1fr) / auto;
+        grid-row-gap: 20px;
+        padding-bottom: 0;
+        padding: 0 15px 20px 15px;
+    }
+
+    .float {
+        box-shadow: 0 0 10px orange;
+        right: 15px;
+    }
+}

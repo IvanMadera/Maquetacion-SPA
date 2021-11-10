@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FDF9F0;
+}
+
+.maximo {
+    max-width: 1200px;
+    margin: auto;
+}
+
+body hr {
+    border: 0;
+    height: 10px;
+    background-color: #D93682;
+}
+
+.inicio {
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+}
+
+.inicio figure {
+    width: 150px;
+}
+
+.inicio figure img {
+    width: 100%;
+}
+
+.inicio div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.iconos a {
+    display: inline-block;
+}
+
+.iconos a i {
+    font-size: 40px;
+    color: black;
+}
+
+.navegador {
+    border: 3px black solid;
+    margin-bottom: 20px;
+    padding: 5px 0;
+}
+
+.menu {
+    list-style: none;
+    display: grid;
+    grid-template: auto / repeat(4, 1fr);
+}
+
+.menu li{
+    text-align: center;
+}
+
+.menu li a {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecera {
+    background-image: url(../img/fondopiedras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecera hgroup {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cabecera hgroup h1 {
+    color: white;
+}
+
+.cabecera hgroup h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.btn-pink {
+    text-decoration: none;
+    color: white;
+    background-color: #E5357E;
+    border: 2px #E5357E solid;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.btn-pink:hover {
+    text-decoration: none;
+    color: #E5357E;
+    background-color: white;
+    border: 2px #E5357E solid;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.btn-trans {
+    text-decoration: none;
+    color: white;
+    border: 2px #E5357E solid;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.btn-trans:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #E5357E;
+    border: 2px white solid;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.velas {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.velas div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 700px;
+}
+
+.velas div p {
+    line-height: 35px;
+}
+
+.velas figure {
+    display: flex;
+    align-items: center;
+    width: 420px;
+    overflow: hidden;
+}
+
+.velas figure img {
+    width: 100%;
+    filter: grayscale(1);
+    transition: all .5s;
+}
+
+.velas:hover figure img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.aroma {
+    padding-bottom: 20px;
+}
+
+.aroma h2 {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.img-text {
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+.img-text figure img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text div p {
+    line-height: 35px;
+}
+
+.cards {
+    display: grid;
+    grid-template: auto / repeat(3, 1fr);
+    grid-column-gap: 30px;
+    padding-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCE7A5;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px orange;
+}
+
+.card figure {
+    width: 170px;
+    width: 170px;
+}
+
+.card figure img {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px white solid;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.pie {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.pie figure {
+    width: 150px;
+    height: 110px;
+}
+
+.pie figure img {
+    width: 100%;
+}
+
+.pie a {
+    display: inline-block;
+    color: #E5357E;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.pie hr {
+    width: 100%;
+}
+
+.float {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(253, 225, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    z-index: 1;
+    transition: all .5s;
+}
+
+.float:hover {
+    box-shadow: 0 0 10px orange;
+}
+
+.float i {
+    color: orange;
+    font-size: 25px;
+}
